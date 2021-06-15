@@ -2,6 +2,68 @@
   text-align: center;
 }
 
+.background {
+  background-image: url(./background.JPG);
+  background-repeat: no-repeat;
+  background-position: 95% 5%;
+  color: white;
+  background-color: teal;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  }
+
+.contact {
+  text-align: center;
+  padding-top: 131px;
+  padding-bottom: 131px;
+  background-color: rgb(88, 143, 161);
+  color: white;
+}
+
+.contact-content {
+  text-align: center;
+  display: inline-block;
+}
+
+.contact-detail1 {
+  text-align: left;
+}
+
+.contact-detail2 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.contact-detail3 {
+  text-align: left;
+}
+
+.mr-sm-2 {
+  color: teal;
+}
+
+.look-programs-bt {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: tomato;
+  color: white;
+}
+
+.look-programs-bt:hover {
+  background-color: rgb(111, 166, 185);
+  color: white;
+  text-decoration: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +98,13 @@
     transform: rotate(360deg);
   }
 }
+
+.col-md-4 {
+  border-style: solid;
+  border-color: rgb(162, 196, 196);
+  border-width: 5px;
+  border-top-color: rgb(162, 196, 196);
+  border-left-color: teal;
+  border-right-color: teal;
+}
+
