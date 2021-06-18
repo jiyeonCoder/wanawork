@@ -19,19 +19,19 @@ function App() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <NavDropdown title="All" id="basic-nav-dropdown">
-              <NavDropdown.Item> <Link to="/all-programs">All Programs</Link> </NavDropdown.Item>
+              <NavDropdown.Item> <Link to="/all-programs" className="nav-title">All Programs</Link> </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.1">Games</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Utilities</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.3">Q&A</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Contact</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4"> <Link to="/contact" className="nav-title">Contact</Link> </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link> <Link to="/games">Games</Link> </Nav.Link>
-            <Nav.Link> <Link to="/utilities">Utilities</Link> </Nav.Link>
-            <Nav.Link> <Link to="/q&a">Q&A</Link> </Nav.Link>
-            <Nav.Link> <Link to="/contact">Contact</Link> </Nav.Link>
+            <Nav.Link> <Link to="/games" className="nav-title">Games</Link> </Nav.Link>
+            <Nav.Link> <Link to="/utilities" className="nav-title">Utilities</Link> </Nav.Link>
+            <Nav.Link> <Link to="/q&a" className="nav-title">Q&A</Link> </Nav.Link>
+            <Nav.Link> <Link to="/contact" className="nav-title">Contact</Link> </Nav.Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />

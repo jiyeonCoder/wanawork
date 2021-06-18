@@ -3,9 +3,9 @@
 }
 
 .background {
-  background-image: url(./background.JPG);
+  background-image: url(./background_pic1.png);
   background-repeat: no-repeat;
-  background-position: 95% 5%;
+  background-position: 80% 20%;
   color: white;
   background-color: teal;
   text-align: center;
@@ -47,6 +47,15 @@
 
 .mr-sm-2 {
   color: teal;
+}
+
+.nav-title {
+  color:rgb(0, 0, 0);
+}
+
+.nav-title:hover {
+  color:darkgray;
+  text-decoration: none;
 }
 
 .look-programs-bt {
